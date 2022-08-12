@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(gameManager.GetPlayState())
         {
-            verticalInput = Input.GetAxis("Vertical2");
+            verticalInput = Input.GetAxis("Vertical");
             transform.Translate(Vector2.up * Time.deltaTime * verticalInput * moveSpeed);
         }
     }

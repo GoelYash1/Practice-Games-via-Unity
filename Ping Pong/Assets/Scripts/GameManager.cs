@@ -10,6 +10,15 @@ public class GameManager : MonoBehaviour
     bool isPlaying = false;
     bool gameEnd = false;
     bool didPlayerWin = false;
+    int choiceIndex = 0;
+    public void SetCategoryIndex(int index)
+    {
+        choiceIndex = index;
+    }
+    public int GetCategoryIndex()
+    {
+        return choiceIndex;
+    }
     public void SetPlayState()
     {
         isPlaying = true;
