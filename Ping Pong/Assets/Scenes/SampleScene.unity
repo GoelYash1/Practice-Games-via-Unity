@@ -854,7 +854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6ba0b1cce45444fb1e53d9411e101c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 5
+  enemySpeed: 6.5
   ball: {fileID: 984433457}
 --- !u!50 &391093529
 Rigidbody2D:
